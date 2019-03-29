@@ -4,7 +4,8 @@
   "description": "PhantAuth OpenID Connect Example",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server --cors -c-1"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/phantauth/phantauth-feedback/issues"
   },
-  "homepage": "https://github.com/phantauth/phantauth-sample-oidc#readme"
+  "homepage": "https://github.com/phantauth/phantauth-sample-oidc#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
 }
