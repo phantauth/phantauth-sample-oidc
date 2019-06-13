@@ -1,5 +1,5 @@
 $(function() {
-    var issuer = "https://phantauth.ga";
+    var issuer = "https://phantauth.net";
     var page = window.location.hostname;
   
     function beforeLogin() {
